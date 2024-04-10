@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* Importing Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+        /* Additional Styles */
+        .navbar-brand,
+        .nav-link {
+            font-family: 'Poppins', sans-serif; /* Applying Google Font */
+        }
+
+        /* Adjusting the spacing and alignment */
+        .navbar-nav {
+            margin-left: auto; /* Pushing the nav links to the right */
+        }
+
+        .home .text {
+            text-align: center; /* Centering the text in the home section */
+        }
+
+        /* Adding padding to the container */
+        .container {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        /* Adjusting the skills section */
+        .skills {
+            text-align: center; /* Centering the skills section */
+            padding: 20px;
+        }
+
+        .skills ul {
+            list-style-type: none; /* Removing default list styles */
+            padding: 0;
+        }
+
+        .skills ul li {
+            display: inline-block; /* Displaying skills horizontally */
+            margin: 0 10px; /* Adding some spacing between skills */
+        }
+
+        /* Adjusting the contact form */
+        .contact-form {
+            text-align: center; /* Centering the contact form */
+            padding: 20px;
+        }
+
+        .contact-form form {
+            max-width: 400px; /* Setting a maximum width for the form */
+            margin: 0 auto; /* Centering the form */
+        }
+
+        /* Adjusting the contact section */
+        .contact {
+            text-align: center; /* Centering the contact section */
+            padding: 20px;
+        }
+
+        .contact-head {
+            margin-bottom: 20px; /* Adding some spacing below the contact information */
+        }
+
+        .contact-head h1 {
+            font-size: 36px; /* Increasing the font size of the heading */
+            margin-bottom: 10px; /* Adding some spacing below the heading */
+        }
+
+        .contact-head h4,
+        .contact-head h6 {
+            margin-bottom: 5px; /* Adding some spacing below the subheadings */
+        }
+
+        .contact-head hr {
+            margin-top: 20px; /* Adding some spacing above the horizontal line */
+            margin-bottom: 20px; /* Adding some spacing below the horizontal line */
+        }
+
+        .contact-head a {
+            margin-right: 10px; /* Adding some spacing between social media icons */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Portfolio</a>
+            <div class="navbar-nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">My Skills</a>
+                <a href="#" class="nav-link">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+    <div class="home">
+        <div class="bgimg">
+            <div class="text">
+                <h3> Hello, I am </h3>
+                <h1>Nayan Khanzode</h1>
+                <h2>Software Developer</h2>
+                <h6>I enjoy building everything from small business sites to rich interactive websites</h6>
+                <h6>If you are a business seeking a software developer looking to hire, get in touch with me here.</h6>
+                <a href="C:\Users\User\Desktop\my potfolio\Resume-NAYAN KHANZODE.pdf" target="_blank"> <button class="btn btn-warning">Resume</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Rest of your HTML remains unchanged -->
+    </div>
+
+    <div class="skills">
+        <div class="sk-head">
+            <h2>MY <span>SKILLS</span></h2>
+        </div>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </div>
+
+    <div class="contact-form">
+        <h2>GET IN TOUCH</h2>
+        <p>If you have any questions or would like to discuss a project, feel free to reach out to me!</p>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <div class="contact">
+        <div class="contact-img">
+            <div class="contact-head">
+                <h1>CONTACT <span>ME!</span></h1>
+                <h4>If You Have Any Project In Your Mind.</h4>
+                <h6>I am a Web Designer - creating bold and brave interface design</h6>
+                <h6>for companies across the world</h6>
+                <h6>Contact : 1234567890</h6>
+                <h6>E-mail: nayan123@gmail.com</h6>
+                <hr>
+                <a href="#"> <img src="assets/insta.png" alt=""> </a>
+                <a href="#"> <img src="assets/fb.png" alt=""> </a
